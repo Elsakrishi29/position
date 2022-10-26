@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title>POSITION</title>
+			<style>
+			.static{
+				position:static;
+				border:5px;
+				background-color:pink;
+				padding:5px;
+				top:500px;
+			}
+			.relative{
+				position:relative;
+				border:100px;
+				background-color:pink;
+				padding:5px;
+				top:800px;
+			}
+			.absolute{
+				position:absolute;
+				border:5px;
+				background-color:pink;
+				padding:5px;
+				top:80px;
+				width:300px;
+				text-align:center;
+				left:40%;
+				height:800px;
+			}
+			.fixed{
+				position:fixed;
+				border:5px;
+				background-color:pink;
+				padding:5px;
+				top:300px;
+				width:300px;
+				text-align:center;
+				right:10%;
+			}
+			.sticky{
+				position:sticky;
+				border:5px;
+				background-color:pink;
+				padding:5px;
+				top:0;
+				width:135px;
+				height:85px;
+				text-align:center;
+				z-index:1;
+				
+				
+			}
+			.drama{
+				display:flex;
+			}
+			</style>
+	</head>
+	<body>
+	<div class="static">
+		<h3>Static</h3>
+	</div>
+	<div class="sticky">
+	<h3>Sticky</h3>
+	</div>
+	<div class="relative">
+		<h3>Relative</h3>
+	</div>
+	<div class="absolute">
+		<h3>Absolute</h3>
+	</div>
+	<div class="drama">
+	<div class="fixed">
+		<h3>Fixed</h3>
+	</div>
+	</div>
+	
+	</body>
+</html>
